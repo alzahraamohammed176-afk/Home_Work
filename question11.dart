@@ -1,0 +1,12 @@
+void main() {
+  //Create a program with the numbers a = 7, b = 7, c = 10.
+  // Check the rule 'a is not equal to c
+  //OR b is greater than or equal to a'. Print whether the rule is true or false.
+  int a = 7;
+  int b = 7;
+  int c = 10;
+  bool rule1 = a != c;
+  bool rule2 = b >= a;
+  print(rule1);
+  print(rule2);
+}
